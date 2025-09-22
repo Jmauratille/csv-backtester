@@ -2,13 +2,6 @@
 
 Reads market data CSV of AAPL ticks generated via a Gaussian random walk, then uses the data for two strategies: a Moving Average Crossover and a Momentum strategy. The engine turns the signals into orders, simulates fills, updates a cash position portfolio, and reports an equity curve, total return, per-period Sharpe, and max drawdown.
 
-## Setup
-
-```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install matplotlib
-```
-
 ## Generate Data
 
 ```bash
